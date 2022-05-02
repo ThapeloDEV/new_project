@@ -118,7 +118,7 @@ padding:20px;
 .btn_showcase:hover{
     color: white;
     background-color: saddlebrown ;
-    
+    cursor: pointer;
 }
 
 
@@ -140,8 +140,7 @@ padding:20px;
 .products_container{
     display: flex;
     margin-top:2rem;
-    height: 70vh;
-    
+    height: 60vh;
     width: 100%;
 }
 
@@ -169,4 +168,90 @@ padding:20px;
     width: 50%;
     height: 60vh;
     background-color: white;
+}
+
+/* second section starts here  */ 
+
+.sec_section{
+
+    background-color: burlywood;
+}
+
+.services_title h2{
+
+    text-align: center;
+    margin-top:3rem ;
+    font-size: 30px;
+    color:saddlebrown;
+    text-align: center;
+}
+
+.services_container{
+    margin-top: 2rem;
+    height: 25vh;
+    background-color: burlywood;
+}
+
+.services_container p{
+
+    padding: 20px 10px; 
+}
+
+.about_title h2{
+
+    text-align: center;
+    margin-top:2rem ;
+    font-size: 30px;
+    color:saddlebrown;
+    text-align: center;
+}
+
+.about_container{
+    display: flex;
+    margin-top: 2rem;
+    height: 40vh;
+    background-color: #ffffff;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.about_container p{
+
+    padding: 20px 10px; 
+}
+
+
+/*footer starts here */
+
+footer{
+    margin-top: 2rem;
+    background-color:burlywood; 
+    height: 17vh;
+}
+.contact_title h2{ 
+    color:saddlebrown;
+    text-align: center;
+    font-size:30px;
+    
+}
+.contact_title{
+    
+    padding: 5px;
+   
+}
+
+.infor_1{
+    float: left;
+    padding: 10px 10px;
+}
+
+.infor_2{
+    float: right;
+    padding: 10px 10px;
+}
+.infor_3{
+    padding:10px 10px 10px ;
+    text-align: center;
+    
 }
